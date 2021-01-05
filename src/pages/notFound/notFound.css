@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.notfound__main {
+    width: 100vw;
+    height: 120vh;
+    background-image: url("https://i.pinimg.com/originals/bc/a9/30/bca930af4a46c89223ae12505609cb87.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* .content{
+font-family: 'Rock Salt',
+cursive;
+font-size: 50px;
+color: white;
+width: 50%;
+margin: auto;
+text-align: center;
+
+} */
+
+.button__content {
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 40%;
+    padding: 1rem;
+    transition: 1s ease;
+}
+
+.button__content:hover {
+    box-shadow: 10px 20px 50px #5e0961,
+        -10px -10px 60px #ecf8f8;
+}
+
+.button__link{
+    font-family: 'Rock Salt',
+    cursive;
+    text-decoration: none;
+    color: black;
+}
